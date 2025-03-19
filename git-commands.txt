@@ -8,4 +8,14 @@ git add
 git commit   #staging area, ready to commit
 git log #info of user who made the changes
 git diff #shows the difference between version
-git 
+git show log-id file name
+git restore .
+git restore file name
+git restore --staged .
+git log -p -2  #last two commit with diff
+git log --stat (summary of changes)
+git log --pretty=online
+git log -S function_name
+git remote add origin https://github.com/Unicorn561/MyRepo1.git
+git branch -M main
+git push -u origin main
